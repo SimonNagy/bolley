@@ -1,6 +1,6 @@
 body {
   font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: #fff;
+  background-color: black;
   height: 200vh;
   position: relative; }
   body:before {
@@ -355,13 +355,16 @@ a {
       .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li.active a {
         color: #fff; }
 
-.position-mod {
-  position: absolute;
-  margin-top: 200px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
 .justified-own {
   text-align: justify;
 }
+
+html,body {height:100%;}
+body {margin:0;}
+.outer {
+    display:table;
+    width:100%;
+    height:100%;
+}
+header,main,footer {display:table-row;}
+header,footer {height:1px;}
