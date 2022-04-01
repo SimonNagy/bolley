@@ -57,3 +57,12 @@ body {
   margin-bottom: 25px;
   margin-top: 30px;
 }
+
+.pic-spacing-own {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.footnote {
+  font-size: smaller !important;
+}
