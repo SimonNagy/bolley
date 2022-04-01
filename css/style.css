@@ -149,7 +149,7 @@ a {
           transition: 0s all;
           color: #343a40; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown a.active {
-            color: #007bff; }
+            color: #002fff; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown .active > a {
           color: #fff !important; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
@@ -334,7 +334,7 @@ a {
     .sticky-wrapper .site-navbar ul li.active a {
       color: #fff; }
   .sticky-wrapper.is-sticky .site-navbar {
-    background-color: #007bff; }
+    background-color: #2c2c2c81; }
     .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li {
       display: inline-block;
       padding: 10px 5px; }
