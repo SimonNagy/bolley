@@ -48,3 +48,12 @@ body {
 .paragraph-own {
   font-size: 20px !important;
 }
+
+.navigation-fix {
+  height: 70px;
+}
+
+.sub-title-own {
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
