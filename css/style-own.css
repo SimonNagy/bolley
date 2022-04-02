@@ -45,6 +45,10 @@ body {
   margin-bottom: 13px;
   }
 
+.header-own {
+  font-size: 45px !important;
+}
+
 .paragraph-own {
   font-size: 20px !important;
 }
@@ -65,4 +69,9 @@ body {
 
 .footnote {
   font-size: smaller !important;
+}
+
+.acknowledgement {
+  font-size: 10px;
+  color: white;
 }
