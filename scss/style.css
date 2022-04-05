@@ -463,7 +463,7 @@ a, a:hover {
 }
 
 .sticky-wrapper.is-sticky .site-navbar {
-  background-color: rgba(0, 0, 0, 0.55)
+  background-color: #007bff;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li {
@@ -505,7 +505,7 @@ a, a:hover {
   display: block;
   position: relative;
   max-width: 500px;
-  background-color: #606060;
+  background-color: #e07823;
   border-radius: 4px;
   padding: 32px 24px;
   margin: 12px;
@@ -515,11 +515,11 @@ a, a:hover {
 }
 
 .card1 p {
-  color: #ffffff;
+  color: black;
 }
 
 .card1 h3 {
-  color: #ffffff;
+  color: black;
 }
 
 .card1:before {
@@ -528,7 +528,7 @@ a, a:hover {
   z-index: -1;
   top: -16px;
   right: -16px;
-  background: #ee6c2c;
+  background: #6895c0;
   height: 32px;
   width: 32px;
   border-radius: 32px;
@@ -557,5 +557,63 @@ a, a:hover {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   color: #ffffff;
+}
+
+.card2 {
+  display: block;
+  position: relative;
+  max-width: 500px;
+  background-color: #475e84;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.card2 p {
+  color: #ffffff;
+}
+
+.card2 h3 {
+  color: #ffffff;
+}
+
+.card2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: #b558c1;
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.card2:hover:before {
+  -webkit-transform: scale(21);
+          transform: scale(21);
+}
+
+.card1:hover p {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  color: black;
+}
+
+.card1:hover h3 {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

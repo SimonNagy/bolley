@@ -493,7 +493,7 @@ a {
 	display: block;
 	position: relative;
 	max-width: 500px;
-	background-color: #606060;
+	background-color: rgb(224, 120, 35);
 	border-radius: 4px;
 	padding: 32px 24px;
 	margin: 12px;
@@ -502,11 +502,11 @@ a {
 	overflow: hidden;
 	
 	p {
-		color: #ffffff;
+		color: black;
 	}
 
 	h3 {
-		color:#ffffff
+		color:black
 	}
   
 	&:before {
@@ -515,7 +515,7 @@ a {
 	  z-index: -1;
 	  top: -16px;
 	  right: -16px;
-	  background: rgb(238, 108, 44);
+	  background: rgb(104, 149, 192);
 	  height: 32px;
 	  width: 32px;
 	  border-radius: 32px;
@@ -537,5 +537,56 @@ a {
 	h3 {
 	  transition: all 0.3s ease-out;
 	  color: #ffffff;
+	}
+  }
+
+  .card2 {
+	display: block;
+	position: relative;
+	max-width: 500px;
+	background-color: rgb(71, 94, 132);
+	border-radius: 4px;
+	padding: 32px 24px;
+	margin: 12px;
+	text-decoration: none;
+	z-index: 0;
+	overflow: hidden;
+	
+	p {
+		color: #ffffff;
+	}
+
+	h3 {
+		color:#ffffff
+	}
+  
+	&:before {
+	  content: "";
+	  position: absolute;
+	  z-index: -1;
+	  top: -16px;
+	  right: -16px;
+	  background: rgb(181, 88, 193);
+	  height: 32px;
+	  width: 32px;
+	  border-radius: 32px;
+	  transform: scale(1);
+	  transform-origin: 50% 50%;
+	  transition: transform 0.25s ease-out;
+	}
+  
+	&:hover:before {
+	  transform: scale(21);
+	}
+  }
+  
+  .card1:hover {
+	p {
+	  transition: all 0.3s ease-out;
+	  color: black;
+	}
+	h3 {
+	  transition: all 0.3s ease-out;
+	  color: black;
 	}
   }
