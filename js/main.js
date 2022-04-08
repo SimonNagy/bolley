@@ -176,10 +176,10 @@ window.onscroll = () => {
   });
 };
 
+// plan-a plan-b slideshow automatikusan
+
 var slideIndex = 0;
 carousel();
-
-
 
 function carousel() {
   var i;
@@ -192,3 +192,5 @@ function carousel() {
   x[slideIndex-1].style.display = "block"; 
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+
+// 4 szoftver ábra slideshow automatikusan
