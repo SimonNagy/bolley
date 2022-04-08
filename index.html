@@ -167,12 +167,22 @@
 
     <!-- szoftver képek animációja - slideshow, js.main  -->
     <div class="pic-spacing-own">
-    <div class="container center-own">
-      <img src="images/benefic-pics/dynamic/software_1.png" alt="..." class="mySlides-own img-fluid mb-3" width="650">
-      <img src="images/benefic-pics/dynamic/software_2.png" alt="..." class="mySlides-own img-fluid mb-3" width="650">
-      <img src="images/benefic-pics/dynamic/software_3.png" alt="..." class="mySlides-own img-fluid mb-3" width="650">
-      <img src="images/benefic-pics/dynamic/software_4.png" alt="..." class="mySlides-own img-fluid mb-3" width="650">
-    </div>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/benefic-pics/dynamic/software_1.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/benefic-pics/dynamic/software_2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/benefic-pics/dynamic/software_3.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/benefic-pics/dynamic/software_4.png" alt="Third slide">
+          </div>
+        </div>
+      </div>
     <p class="text-black font-italic footnote">Only for illustration purposes.</p>
     </div>
     <div class="container">
@@ -213,7 +223,7 @@
           <h3>Optimization of Static and Dynamic Charging Infrastructure for Electric Buses</h3>
           <p class="small">Bálint CSONKA PhD</p>
           <p class="small">Scientific journal paper in Energies (Volume 14. Issue 12. June 2021)</p>
-          <p class="medium"><i class="fa-solid fa-book"></i></p>
+          <p class="medium"><i class="fa-solid fa-book fa-2xl"></i></p>
         </a>
       </div>
 
@@ -222,7 +232,7 @@
           <h3>Charging power optimisation for electric buses at terminals</h3>
           <p class="small">Bálint CSONKA PhD</p>
           <p class="small">Conference paper in the Proceedings of the 6<sup>th</sup> International Conference on Road and Rail Infrastructure (May 2021)</p>
-          <p class="medium"><i class="fa-solid fa-book"></i></p>
+          <p class="medium"><i class="fa-solid fa-book fa-2xl"></i></p>
         </a>
       </div>
 
@@ -231,7 +241,7 @@
           <h3>Location optimisation method for fast-charging stations along national roads</h3>
           <p class="small">Csaba CSISZÁR PhD, Bálint CSONKA PhD, Dávid FÖLDES PhD, Ervin WIRTH PhD, Tamás LOVAS PhD</p>
           <p class="small">Scientific journal paper in Journal of Transport Geography (Volume 88. October 2020)</p>
-          <p class="medium"><i class="fa-solid fa-book"></i></p>
+          <p class="medium"><i class="fa-solid fa-book fa-2xl"></i></p>
         </a>
       </div>
 
@@ -240,7 +250,7 @@
           <h3>Operational Methods for Charging of Electric Vehicles</h3>
           <p class="small">Bálint CSONKA PhD, Márton HAVAS, Csaba CSISZÁR PhD, Dávid FÖLDES PhD</p>
           <p class="small">Scientific journal paper in Periodica Polytechnica Transportation Engineering (Volume 48. Issue 4. July 2020)</p>
-          <p class="medium"><i class="fa-solid fa-book"></i></p>
+          <p class="medium"><i class="fa-solid fa-book fa-2xl"></i></p>
         </a>
       </div>
 
@@ -249,7 +259,7 @@
           <h3>Urban public charging station locating method for electric vehicles based on land use approach</h3>
           <p class="small">Csaba CSISZÁR PhD, Bálint CSONKA PhD, Dávid FÖLDES PhD, Ervin WIRTH PhD, Tamás LOVAS PhD</p>
           <p class="small">Scientific journal paper in Journal of Transport Geography (Volume 74. January 2019)</p>
-          <p class="medium"><i class="fa-solid fa-book"></i></p>
+          <p class="medium"><i class="fa-solid fa-book fa-2xl"></i></p>
         </a>
       </div>
 
@@ -259,7 +269,7 @@
           <p class="small">Bálint CSONKA PhD</p>
           <p class="small">To drastically reduce CO<sub>2</sub> emission the switch to alternative drive systems and electromobility is key. Listen to our CEO's speech about 
           electromobility, buses, network design and more!</p>
-          <p class="medium"><i class="fa-solid fa-video"></i></p>
+          <p class="medium"><i class="fa-solid fa-video fa-2xl"></i></p>
         </a>
       </div>
   </div>    
@@ -374,11 +384,33 @@
         </p>
         
         <div class="container">
-          <div class="row columns-parent">
-            <a href="mailto:info@bolley.com"><span class="text-white fa-solid fa-envelope fa-xl icon-spacing"></span></a>
-            <a href="https://www.facebook.com/bolleybus/" target="_blank"><span class="text-white fa-brands fa-linkedin fa-xl icon-spacing"></span></a>
-            <a href="https://www.linkedin.com/company/bolley/" target="_blank"><span class="text-white fa-brands fa-facebook fa-xl icon-spacing"></span></a>
-          </div>
+				  <div class="dbox w-100 d-flex align-items-start">
+				    <div class="icon d-flex align-items-center justify-content-center">
+				      <span class="fa fa-map-marker text-white fa-xl"></span>
+				    </div>
+				    <div class="text pl-2 text-white">
+					    <p><span>Address:</span> Műegyetem rkp 3. Budapest H-1111 Hungary</p>
+					  </div>
+				  </div>
+				  <div class="dbox w-100 d-flex align-items-center">
+				    <div class="icon d-flex align-items-center justify-content-center">
+				      <span class="fa-solid fa-envelope text-white fa-xl"></span>
+				    </div>
+				    <div class="text pl-2 text-white">
+					    <p><span>E-Mail:</span> <a href="mailto:hello@bolley.hu"> hello@bolley.hu</a></p>
+					  </div>
+				  </div>
+          <div class="dbox w-100 d-flex align-items-center">
+				    <div class="icon d-flex align-items-center justify-content-center">
+				      <span class="fa-brands fa-linkedin text-white fa-xl"></span>
+				    </div>
+				    <div class="text pl-2 text-white">
+					    <p><span>Follow us on LinkedIn!</span></p>
+					  </div>
+				  </div>
+				  
+
+
         </div>
       </div>
 

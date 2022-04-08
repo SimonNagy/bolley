@@ -194,3 +194,7 @@ function carousel() {
 }
 
 // 4 szoftver ábra slideshow automatikusan
+
+$('.carousel').carousel({
+	interval: 2500
+  })
