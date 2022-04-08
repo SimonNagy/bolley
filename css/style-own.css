@@ -93,16 +93,16 @@ body {
 .own-bg-2 {
   background-color: #ffffff;
 }
-
-.bg-card-own {
-  background-color: rgb(168, 74, 64);
-}
-
-.bg-faszom {
+.bg-card {
   background-color: rgb(224, 120, 35);
 }
 
 .own-bg-contact {
   background-color: rgb(77, 93, 129);
   width: 100%;
+}
+
+.card-block-own {
+  width: 100%;
+  background-color: white;
 }
