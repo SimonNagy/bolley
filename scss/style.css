@@ -199,7 +199,7 @@ a, a:hover {
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown a.active {
-  color: #007bff;
+  color: #0022ff;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active > a {
@@ -355,7 +355,7 @@ a, a:hover {
 }
 
 .site-mobile-menu .site-nav-wrap a.active, .site-mobile-menu .site-nav-wrap a:hover {
-  color: #007bff;
+  color: #0015ff;
 }
 
 .site-mobile-menu .site-nav-wrap li {
@@ -364,7 +364,7 @@ a, a:hover {
 }
 
 .site-mobile-menu .site-nav-wrap li.active > a {
-  color: #007bff;
+  color: #0004ff;
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
@@ -462,8 +462,9 @@ a, a:hover {
   color: #fff;
 }
 
+/* legörgetett menü színe */
 .sticky-wrapper.is-sticky .site-navbar {
-  background-color: #007bff;
+  background-color: #2828287d;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li {
