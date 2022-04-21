@@ -152,6 +152,7 @@ body{margin-top:20px;}
 .deneb_footer .widget_wrapper .widget_contact p {
     margin-bottom: 20px;
 }
+
 .deneb_footer .widget_wrapper .widget_link .social li {
     display: inline-block;
     margin-right: 10px;
@@ -221,6 +222,7 @@ body{margin-top:20px;}
 .deneb_footer .copyright_area .copyright_text p span {
     color: #feb000;
 }
+
 .deneb_cta .cta_wrapper {
     padding: 45px 50px 42px;
     max-width: 970px;
@@ -290,18 +292,11 @@ body{margin-top:20px;}
 .deneb_cta .cta_wrapper .button_box .deneb_btn:hover,
 .deneb_cta .cta_wrapper .button_box .deneb_btn:focus {
     box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
-}
+} 
+
 
 .contact-own {
   font-size: large;
   color: white;
   margin-bottom: 35px;
-}
-
-.widget-position {
-  align-self: center;
-}
-
-.alignment {
-  align-self: center;
 }
