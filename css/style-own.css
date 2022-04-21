@@ -296,7 +296,12 @@ body{margin-top:20px;}
 
 
 .contact-own {
-  font-size: large;
+  font-size: 25px;
+  font-weight: bold;
   color: white;
+  margin-bottom: 35px;
+}
+
+.icon-position-own {
   margin-bottom: 35px;
 }
