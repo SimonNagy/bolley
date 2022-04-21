@@ -463,7 +463,7 @@ a, a:hover {
 }
 
 .sticky-wrapper.is-sticky .site-navbar {
-  background-color: #007bff;
+  background-color: rgba(50, 49, 49, 0.7);
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li {
