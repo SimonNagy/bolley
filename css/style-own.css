@@ -71,6 +71,10 @@ body {
   margin-bottom: 25px;
 }
 
+.project-pic-spacing {
+  height: 5px;
+}
+
 .footnote {
   font-size: smaller !important;
 }
@@ -320,4 +324,3 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
-
