@@ -324,3 +324,11 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.spacebetween-own {
+  width: 10px;
+}
+
+.iconfix-own {
+  color: white;
+}
